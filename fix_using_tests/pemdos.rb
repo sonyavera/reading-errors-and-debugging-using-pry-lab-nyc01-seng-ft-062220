@@ -2,8 +2,8 @@
 require 'pry'
 def snake_it_up(string)
   if string[0] == "s"
-    10 * "s" + string
-    binding.pry
+    snake_sound = times.10 print "s"
+    print snake_sound + string
     puts "hello"
   else
     string
